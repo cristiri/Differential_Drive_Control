@@ -1,4 +1,4 @@
-function [v,w] =waypoint_tracking_controller(x,y,theta,xr,yr,v,Ts,kp1,kp2,kd1,kd2)
+function [v,w] =Waypoint_Tracking_law(x,y,theta,xr,yr,v,Ts,kp1,kp2,kd1,kd2)
 
     %This function implements the feedback linearization based waypoint
     %tracking controller proposed in: "De Luca, Oriolo, Vendittelli - 
