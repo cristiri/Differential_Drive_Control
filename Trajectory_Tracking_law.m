@@ -1,4 +1,4 @@
-function [v,w] = trajectory_tracking_controller(x,y,theta,xr,yr,xdr,ydr,xddr,yddr,v,Ts,kp1,kp2,kd1,kd2)
+function [v,w] = Trajectory_Tracking_law(x,y,theta,xr,yr,xdr,ydr,xddr,yddr,v,Ts,kp1,kp2,kd1,kd2)
 
     %This function implements the feedback linearization based tracking
     %controller proposed in: "De Luca, Oriolo, Vendittelli - Control of Wheeled Mobile Robots: An
