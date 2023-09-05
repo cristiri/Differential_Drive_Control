@@ -11,5 +11,7 @@ The repository contains two main scripts:
 
 which implements the algorithms discussed in [1] consisting of tracking control and waypoint stabilization algorithms based on a dynamic feedback linearization technique. The control laws are coded in the functions: "Trajectory_Tracking_law.m"  and "Waypoint_Tracking_law.m" and the algorithms are simulated using the kinematic model of a differential-drive robot, which is coded in the Matlab function "DiffDrive.m".
 
+Testy
+
 
 [1] A. De Luca and G. Oriolo, “Modelling and control of nonholonomic mechanical systems,” in Kinematics and Dynamics of Multi-Body Systems. Vienna, Austria: Springer, 1995, pp. 277–342
